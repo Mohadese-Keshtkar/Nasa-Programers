@@ -1,15 +1,18 @@
-/*footer css*/
+/* start footer css*/
 .footer{
     background-color: black;
-    width: 92.5vw;
+    width:1400px;
     color: aliceblue;
     margin: 0 auto;
     padding: 50px 0;
     box-sizing: border-box;
     position: absolute;
+     /*baraye vasat chin kardsne container footer 
+    lazem shod ke az 3 code: bottom , left va right ke meghdare
+    anha 0 boud estefade konam */
     bottom: 0;
-    left: 0;
     right: 0;
+    left: 0;
     font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -28,23 +31,20 @@
 }
 
 .footer-info img{
-width: 84px;
+width: 82px;
 display: inline-block;
-float: left;
+float: left; /*dadane float:left be img baes shod span hae ke dar 1 div ba img 
+bodan roye 1 khate moshtarak gharar begiran  */
 }
 
 .footer-info span{
     display: inline-block;
-    text-align: center;
-    font-size: 15px;
+    font-size: 14px;
 }
 
-.footer-info{
-vertical-align: middle;
-}
 
 #footer-links{
-    margin: 20px 0;
+    margin: 10px 0;
     padding-left: 0;
     position: absolute;
     right: 0;
