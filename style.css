@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* start footer css*/
 .footer{
     background-color: black;
@@ -51,3 +52,403 @@ bodan roye 1 khate moshtarak gharar begiran  */
 /*payane footer css*/
 
 
+=======
+@font-face {
+  font-family: nasafont;
+  src: url(./Titillium_Web/TitilliumWeb-Regular.ttf);
+}
+body {
+  font-family: nasafont;
+  background-color: black;
+  color: aliceblue;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
+    sans-serif;
+}
+
+#container {
+  margin: 0 auto;
+  width: 1350px;
+  /* border: 1px solid white; */
+}
+
+.main {
+  /* text-align: center; */
+  margin: 0 auto;
+}
+.main-top {
+  display: inline-flex;
+}
+.main-top-left {
+  background: url(image/state-of-nasa-2023.png);
+  background-size: 100%;
+  /* background-color: #cccccc; */
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 256px;
+  width: 113px;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+}
+.main-top-left a {
+  display: inline;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.8);
+  width: 100%;
+  text-decoration: none;
+  color: #000;
+  padding: 5px 0px;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 23px;
+  text-align: left;
+}
+.main-top-right {
+  display: inline-block;
+  padding-left: 9px;
+}
+.main-top-right-up {
+  background: url(image/artemis_ii_graphics.jpg);
+  background-size: 100%;
+  /* background-color: #cccccc; */
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 164px;
+  width: 5px;
+  position: relative;
+  display: inline-block;
+}
+.main-top-right-up a {
+  display: inline;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.8);
+  width: 91%;
+  text-decoration: none;
+  color: #000;
+  padding: 5px 15px;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 23px;
+  text-align: left;
+}
+.nasa-event {
+  background-color: #39719e;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 0 7.5px 15px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+  height: 311px;
+  width: 340px;
+  border: 1px solid black;
+  text-align: left;
+  position: absolute;
+  margin-left: 4px;
+}
+.nasa-event * {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+
+  position: relative;
+}
+.nasa-event-line-first {
+  border: 1px solid white;
+  padding: 44px;
+  padding: 0px 116px;
+}
+.event-bottom {
+  position: relative;
+  top: 78px;
+}
+.event-bottom a {
+  padding: 7px;
+}
+.nasa-event-line-second {
+  border: 1px solid white;
+  position: relative;
+  top: 75px;
+}
+.main-top-right-down {
+  background: url(image/1-pia00106-maat-mons-1041.jpg);
+  background-size: cover;
+  /* background-color: #cccccc; */
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 147px 159px;
+  width: 376px;
+  position: relative;
+}
+.main-top-right-down a {
+  display: inline;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.8);
+  width: 97%;
+  text-decoration: none;
+  color: #000;
+  padding: 5px 10px;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 23px;
+  text-align: left;
+}
+.main-middel-first {
+  background-image: url(image/axiom_axemu_full.jpg);
+  background-size: 100%;
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 164px;
+  width: 5px;
+  position: relative;
+  display: inline-block;
+}
+.main-middel-first a {
+  display: inline;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.8);
+  width: 94%;
+  text-decoration: none;
+  color: #000;
+  padding: 5px 10px;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 23px;
+  text-align: left;
+}
+.main-middel-second {
+  background-image: url(image/waterextremes.00899_print.jpg);
+  background-size: 100%;
+  /* background-color: #cccccc; */
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 130px 110px;
+  width: 451px;
+  position: relative;
+  display: inline-block;
+  height: 69px;
+}
+.main-middel-second a {
+  display: inline;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.8);
+  width: 97%;
+  text-decoration: none;
+  color: #000;
+  padding: 5px 10px;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 23px;
+  text-align: left;
+}
+.main-middel-third {
+  background-image: url(image/axiom_space.jpg);
+  background-size: 100%;
+  /* background-color: #cccccc; */
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 164px;
+  width: 5px;
+  position: relative;
+  display: inline-block;
+}
+.main-middel-third a {
+  display: inline;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.8);
+  width: 94%;
+  text-decoration: none;
+  color: #000;
+  padding: 5px 10px;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 23px;
+  text-align: left;
+}
+.main-bottom-first {
+  background-image: url(image/_bc22186_.jpg);
+  background-size: 100%;
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 164px;
+  width: 5px;
+  position: relative;
+  display: inline-block;
+}
+.main-bottom-first a {
+  display: inline;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.8);
+  width: 94%;
+  text-decoration: none;
+  color: #000;
+  padding: 5px 10px;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 23px;
+  text-align: left;
+}
+.main-bottom-second {
+  background-image: url(image/52747713048_4c9c64debb_o.jpg);
+  background-size: 100%;
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 164px;
+  width: 5px;
+  position: relative;
+  display: inline-block;
+}
+.main-bottom-second a {
+  display: inline;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.8);
+  width: 94%;
+  text-decoration: none;
+  color: #000;
+  padding: 5px 10px;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 23px;
+  text-align: left;
+}
+.main-bottom-third {
+  background-image: url(image/52750115253_aeeedffb20_o.jpeg);
+  background-size: 100%;
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 164px;
+  width: 5px;
+  position: relative;
+  display: inline-block;
+}
+.main-bottom-third a {
+  display: inline;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.8);
+  width: 94%;
+  text-decoration: none;
+  color: #000;
+  padding: 5px 10px;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 23px;
+  text-align: left;
+}
+.main-bottom-Fourth {
+  background-image: url(image/viper_chassis_3_quick_edit.png);
+  background-size: 100%;
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 164px;
+  width: 5px;
+  position: relative;
+  display: inline-block;
+}
+.main-bottom-Fourth a {
+  display: inline;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.8);
+  width: 94%;
+  text-decoration: none;
+  color: #000;
+  padding: 5px 10px;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 23px;
+  text-align: left;
+}
+
+.MORE-STORIES {
+  background: #15418c;
+  text-align: center;
+  cursor: pointer;
+  padding: 8px;
+  margin-top: 15px;
+  width: 1331px;
+  
+}
+.MORE-STORIES button {
+  background: #15418c;
+  color: white;
+  font-size: 17px;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 600;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+  color: #5d7fb9;
+  margin-right: 18px;
+  font-size: 12px;
+}
+.allfooter {
+  width: 92.5vw;
+  margin: 0 auto;
+  box-sizing: border-box;
+  /* position: absolute; */
+  /* left: 0; */
+  /* right: 0; */
+  /* bottom: 0; */
+  display: inline;
+}
+.footer-info{
+    display: inline-block
+}
+.footer-info img {
+  width: 86px;
+  display: inline-block;
+}
+#footer-links li {
+  font-weight: bolder;
+  margin-left: 7px;
+  display: inline-block;
+  list-style-type: none;
+}
+.footer {
+  width: 100%;
+  background: rgb(0, 0, 0);
+}
+.footer-info span {
+  font-size: 16.5px;
+}
+.footer a {
+  align-self: center;
+}
+.National {
+  display: inline-block;
+}
+.bottom-logo {
+  display: inline-block;
+}
+#footer-links {
+  text-align: right;
+  width: 1336px;
+}
+>>>>>>> 162493e56574d6783d53419308602c3d180ebb0b
