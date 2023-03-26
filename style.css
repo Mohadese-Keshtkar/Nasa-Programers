@@ -20,9 +20,11 @@ body {
   /* text-align: center; */
   margin: 0 auto;
 }
+
 .main-top {
   display: inline-flex;
 }
+
 .main-top-left {
   background: url(image/state-of-nasa-2023.png);
   background-size: 100%;
@@ -35,6 +37,7 @@ body {
   cursor: pointer;
   display: inline-block;
 }
+
 .main-top-left a {
   display: inline;
   position: absolute;
@@ -50,10 +53,12 @@ body {
   line-height: 23px;
   text-align: left;
 }
+
 .main-top-right {
   display: inline-block;
   padding-left: 9px;
 }
+
 .main-top-right-up {
   background: url(image/artemis_ii_graphics.jpg);
   background-size: 100%;
@@ -65,6 +70,7 @@ body {
   position: relative;
   display: inline-block;
 }
+
 .main-top-right-up a {
   display: inline;
   position: absolute;
@@ -80,6 +86,7 @@ body {
   line-height: 23px;
   text-align: left;
 }
+
 .nasa-event {
   background-color: #39719e;
   display: inline-block;
@@ -95,30 +102,35 @@ body {
   position: absolute;
   margin-left: 4px;
 }
+
 .nasa-event * {
   color: white;
   text-decoration: none;
   font-size: 14px;
-
   position: relative;
 }
+
 .nasa-event-line-first {
   border: 1px solid white;
   padding: 44px;
   padding: 0px 116px;
 }
+
 .event-bottom {
   position: relative;
   top: 78px;
 }
+
 .event-bottom a {
   padding: 7px;
 }
+
 .nasa-event-line-second {
   border: 1px solid white;
   position: relative;
   top: 75px;
 }
+
 .main-top-right-down {
   background: url(image/1-pia00106-maat-mons-1041.jpg);
   background-size: cover;
@@ -129,6 +141,7 @@ body {
   width: 376px;
   position: relative;
 }
+
 .main-top-right-down a {
   display: inline;
   position: absolute;
@@ -144,6 +157,7 @@ body {
   line-height: 23px;
   text-align: left;
 }
+
 .main-middel-first {
   background-image: url(image/axiom_axemu_full.jpg);
   background-size: 100%;
@@ -155,6 +169,7 @@ body {
   position: relative;
   display: inline-block;
 }
+
 .main-middel-first a {
   display: inline;
   position: absolute;
@@ -170,6 +185,7 @@ body {
   line-height: 23px;
   text-align: left;
 }
+
 .main-middel-second {
   background-image: url(image/waterextremes.00899_print.jpg);
   background-size: 100%;
@@ -182,6 +198,7 @@ body {
   display: inline-block;
   height: 69px;
 }
+
 .main-middel-second a {
   display: inline;
   position: absolute;
@@ -197,6 +214,7 @@ body {
   line-height: 23px;
   text-align: left;
 }
+
 .main-middel-third {
   background-image: url(image/axiom_space.jpg);
   background-size: 100%;
@@ -208,6 +226,7 @@ body {
   position: relative;
   display: inline-block;
 }
+
 .main-middel-third a {
   display: inline;
   position: absolute;
@@ -223,6 +242,7 @@ body {
   line-height: 23px;
   text-align: left;
 }
+
 .main-bottom-first {
   background-image: url(image/_bc22186_.jpg);
   background-size: 100%;
@@ -234,6 +254,7 @@ body {
   position: relative;
   display: inline-block;
 }
+
 .main-bottom-first a {
   display: inline;
   position: absolute;
@@ -249,6 +270,7 @@ body {
   line-height: 23px;
   text-align: left;
 }
+
 .main-bottom-second {
   background-image: url(image/52747713048_4c9c64debb_o.jpg);
   background-size: 100%;
@@ -260,6 +282,7 @@ body {
   position: relative;
   display: inline-block;
 }
+
 .main-bottom-second a {
   display: inline;
   position: absolute;
@@ -275,6 +298,7 @@ body {
   line-height: 23px;
   text-align: left;
 }
+
 .main-bottom-third {
   background-image: url(image/52750115253_aeeedffb20_o.jpeg);
   background-size: 100%;
@@ -286,6 +310,7 @@ body {
   position: relative;
   display: inline-block;
 }
+
 .main-bottom-third a {
   display: inline;
   position: absolute;
@@ -301,6 +326,7 @@ body {
   line-height: 23px;
   text-align: left;
 }
+
 .main-bottom-Fourth {
   background-image: url(image/viper_chassis_3_quick_edit.png);
   background-size: 100%;
@@ -312,6 +338,7 @@ body {
   position: relative;
   display: inline-block;
 }
+
 .main-bottom-Fourth a {
   display: inline;
   position: absolute;
@@ -354,6 +381,7 @@ a {
   margin-right: 18px;
   font-size: 12.8px;
 }
+
 .allfooter {
   width: 1400px;
   margin: 0 auto;
@@ -363,37 +391,47 @@ a {
   bottom: 0;
   display: inline;
 }
+
 .footer-info{
-    display: inline-block
+ display: inline-block
+ 
 }
+
 .footer-info img {
   width: 80px;
   display: inline-block;
   margin-top: 23px;
 }
+
 #footer-links li {
   font-weight: bolder;
   margin-left: 7px;
   display: inline-block;
   list-style-type: none;
 }
+
 .footer {
   width: 100%;
   background: rgb(0, 0, 0);
 }
+
 .footer-info span {
   font-size: 13px;
   font-weight: bold;
 }
+
 .footer a {
   align-self: center;
 }
+
 .National {
   display: inline-block;
 }
+
 .bottom-logo {
-  display: inline-block;
+  float: left;
 }
+
 #footer-links {
   text-align: right;
   width: 1336px;
