@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /* start footer css*/
 .footer{
     background-color: black;
@@ -34,6 +33,7 @@
 .footer-info img{
 width: 82px;
 display: inline-block;
+margin-top: 20px;
 float: left;/*dadane float:left be img baes shod span hae ke dar 1 div ba img 
 bodan roye 1 khate moshtarak gharar begiran  */
 }
@@ -52,7 +52,6 @@ bodan roye 1 khate moshtarak gharar begiran  */
 /*payane footer css*/
 
 
-=======
 @font-face {
   font-family: nasafont;
   src: url(./Titillium_Web/TitilliumWeb-Regular.ttf);
@@ -409,13 +408,13 @@ a {
   font-size: 12px;
 }
 .allfooter {
-  width: 92.5vw;
+  width: 1400px;
   margin: 0 auto;
   box-sizing: border-box;
-  /* position: absolute; */
-  /* left: 0; */
-  /* right: 0; */
-  /* bottom: 0; */
+  position: absolute;
+  left: 0; 
+  right: 0;
+  bottom: 0;
   display: inline;
 }
 .footer-info{
@@ -451,4 +450,4 @@ a {
   text-align: right;
   width: 1336px;
 }
->>>>>>> 162493e56574d6783d53419308602c3d180ebb0b
+
