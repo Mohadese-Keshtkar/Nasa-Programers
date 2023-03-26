@@ -33,7 +33,7 @@
 .footer-info img{
 width: 82px;
 display: inline-block;
-float: left; /*dadane float:left be img baes shod span hae ke dar 1 div ba img 
+float: left;/*dadane float:left be img baes shod span hae ke dar 1 div ba img 
 bodan roye 1 khate moshtarak gharar begiran  */
 }
 
@@ -44,11 +44,8 @@ bodan roye 1 khate moshtarak gharar begiran  */
 
 
 #footer-links{
-    margin: 10px 0;
     padding-left: 0;
-    position: absolute;
-    right: 0;
-    margin-right: 42px;
+    text-align: right;
 }
 
 /*payane footer css*/
