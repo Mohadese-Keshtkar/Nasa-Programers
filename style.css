@@ -380,7 +380,7 @@ a {
   text-decoration: none;
   color: #5d7fb9;
   margin-right: 18px;
-  font-size: 12.8px;
+  font-size: 12.6px;
 }
 
 .allfooter {
@@ -394,13 +394,13 @@ a {
 }
 
 .footer-info{
- display: inline-block
+  display: inline-block
 }
 
 .footer-info img {
-  width: 80px;
+  width: 79px;
   display: inline-block;
-  margin-top: 23px;
+  margin-top: 7px;
 }
 
 #footer-links li {
@@ -413,10 +413,11 @@ a {
 .footer {
   width: 100%;
   background: rgb(0, 0, 0);
+  margin: 25px 0;
 }
 
 .footer-info span {
-  font-size: 13px;
+  font-size: 12.9px;
   font-weight: bold;
 }
 
