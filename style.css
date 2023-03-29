@@ -436,6 +436,7 @@ background: rgb(255, 254, 254);
 .footer-info img {
   width: 86px;
   display: inline-block;
+  
 }
 #footer-links li {
   font-weight: bolder;
@@ -446,6 +447,7 @@ background: rgb(255, 254, 254);
 .footer {
   width: 100%;
   background: rgb(0, 0, 0);
+  margin: 20px 0;
 }
 .footer-info span {
   font-size: 16.5px;
@@ -454,7 +456,7 @@ background: rgb(255, 254, 254);
   color:#5d7fb9 ;
   text-decoration: none;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 13.5px;
 }
 .National {
   display: inline-block;
@@ -468,6 +470,7 @@ background: rgb(255, 254, 254);
 }
 #footer-links a{
   text-decoration: none;
+  margin-right: 10px;
 }
 
 #footer-links a:hover{
