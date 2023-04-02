@@ -20,11 +20,12 @@
 
       /* Css properties code header[START] */
       .header {
-        width: 1380px;
+        width: 1455px;
         position: fixed;
         z-index: 3;
         background-image: url(image/preview.jpg);
         top: 0;
+        align-items: center;
       }
       /* Css properties code header[END] */
 
@@ -65,9 +66,10 @@
       }
       
       .links-menu ul > li > a {
-        color: white;
+        color: rgb(255, 255, 255);
         text-decoration: none;
         margin-right: 5px;
+        
       }
       /* Css properties links-menu ul :Missions [START]*/
       .links-menu ul li ul {
@@ -84,6 +86,7 @@
       
       .links-menu ul li:hover a {
         background-color: blue;
+        font-size: 17px;
       }
       
       
@@ -277,12 +280,12 @@
         margin-left: -23px;
         position: absolute;
         bottom: -169px;
-        color: white;
+        color: rgb(255, 255, 255);
         cursor: pointer;
         text-decoration:underline ;
+        text-decoration: none;
       }
       .main-right button:hover{
-        
         background: #5d7fb9;
       }
       .allfooter {
@@ -294,6 +297,7 @@
       }
       .footer-info {
         display: inline-block;
+        margin-top: 20PX;
       }
       .footer-info img {
         width: 86px;
@@ -306,7 +310,7 @@
         list-style-type: none;
       }
       .footer {
-        width: 123%;
+      width: 123%;
         background: rgb(0, 0, 0);
       }
       .footer-info span {
@@ -316,7 +320,7 @@
         color:#5d7fb9 ;
         text-decoration: none;
         font-weight: bold;
-        font-size: 15px;
+        font-size: 13px;    
       }
       .National {
         display: inline-block;
@@ -327,6 +331,7 @@
       }
       #footer-links {
         width: 989px;
+        text-align: right;
       }
       #footer-links a:hover{
         text-decoration: underline;

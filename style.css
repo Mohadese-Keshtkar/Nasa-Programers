@@ -420,6 +420,8 @@ background: rgb(255, 254, 254);
 .MORE-STORIES button:hover{
   background: #5d7fb9;
 }
+
+/* Css properties code footer[SRART] */
 .allfooter {
   width: 92.5vw;
   margin: 0 auto;
@@ -480,6 +482,7 @@ background: rgb(255, 254, 254);
 
 #footer-links a:hover{
   text-decoration: underline;}
+  /* Css properties code footer[END] */
 
 /* Css properties code container[START] */
 .container {
@@ -496,6 +499,7 @@ background: rgb(255, 254, 254);
     z-index: 2;
     background-image: url(image/preview.jpg);
     top: 0;
+    align-items: center;
 }
 /* Css properties code header[END] */
 
