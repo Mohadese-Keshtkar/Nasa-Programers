@@ -2,6 +2,7 @@
   font-family: nasafont;
   src: url(./Titillium_Web/TitilliumWeb-Regular.ttf);
 }
+
 body {
   font-family: nasafont;
   background-color: black;
@@ -9,20 +10,20 @@ body {
   font-family: "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
     sans-serif;
 }
+
 #container {
   margin: 0 auto;
   width: 1350px;
-  
 }
 /* Css properties code header[START] */
 
 .header {
-    width: 1343px;
-    position: fixed;
-    z-index: 2;
-    background-image: url(image/preview.jpg);
-    top: 0;
-    align-items: center;
+  width: 1343px;
+  position: fixed;
+  z-index: 2;
+  background-image: url(image/preview.jpg);
+  top: 0;
+  align-items: center;
 }
 /* Css properties code header[END] */
 
@@ -31,11 +32,11 @@ body {
   display: inline-block;
   vertical-align: top;
   text-align: center;
-  /* width: 1376px; */
-    position: fixed;
-    z-index: 2;
-    /* background-image: url(image/preview.jpg); */
-    margin-top: -8px;
+  width: 1150px;
+  position: fixed;
+  z-index: 2;
+  /* background-image: url(image/preview.jpg); */
+  margin-top: -8px;
 }
 /* Css properties codes header menu[END] */
 
@@ -48,9 +49,8 @@ body {
 /*  Css properties codes header links-menu top[START] */
 .links-menu {
   position: relative;
-  
 }
-.links-menu a{
+.links-menu a {
   display: inline-block;
   width: 100%;
   /* padding: 11px 0; */
@@ -70,13 +70,14 @@ body {
   text-decoration: none;
   margin-right: 5px;
 }
+
 /* Css properties links-menu ul :Missions [START]*/
 .links-menu ul li ul {
   display: none;
   position: absolute;
   background-color: #15418c;
   padding: 0px;
-  width: 290px;
+  width: 292px;
 }
 
 .links-menu ul li:hover ul {
@@ -91,12 +92,13 @@ body {
   display: block;
   text-align: left;
   margin-top: 12px;
+  margin-left: 7px;
 }
 
-.links-menu ul li ul  li:hover a{
+.links-menu ul li ul li:hover a {
   background-color: #113575;
   /* padding: 4px 0 ; */
-} 
+}
 
 /* Css properties links-menu ul :Missions [END]*/
 
@@ -105,9 +107,9 @@ body {
   border: 2px solid #333333;
   display: inline;
   position: absolute;
-  right: -86px;
+  right: 0px;
   top: 0px;
-  background-color:#333333;
+  background-color: #333333;
 }
 .search-box svg {
   width: 19px;
@@ -119,10 +121,10 @@ body {
   padding: 8px;
   outline: none;
   border: none;
-  background-color:#333333;
+  background-color: #333333;
   cursor: text;
 }
-.search-box img{
+.search-box img {
   width: 19px;
   position: absolute;
   right: -35px;
@@ -134,7 +136,7 @@ body {
 /*  Css properties codes header links-menu top[End] */
 
 /*  Css properties codes header links-down[START] */
-.links-down{
+.links-down {
   font-size: 1px;
 }
 
@@ -160,17 +162,14 @@ body {
   margin: 0px 5px 0px 5px;
 }
 
-.links-down ul  li:hover a{
+.links-down ul li:hover a {
   background-color: rgb(97, 97, 97);
-  
 }
 /*  Css properties codes header links-down[End] */
-
 
 /* start Css main codes*/
 
 .main {
-  
   margin: 0 auto;
   margin-top: 103px;
 }
@@ -190,7 +189,7 @@ body {
   display: inline-block;
   height: 110px;
 }
-.main-top-left h2{
+.main-top-left h2 {
   background: rgba(87, 108, 214, 0.6);
   position: absolute;
   left: 0;
@@ -199,14 +198,14 @@ body {
   font-size: 18px;
   padding: 6px 12px;
 }
-.main-top-left h2:hover{
-background: rgb(94, 109, 189)
+.main-top-left h2:hover {
+  background: rgb(94, 109, 189);
 }
 .main-top-left h1 {
   display: inline;
   position: absolute;
   left: 0;
-  bottom:-10px;
+  bottom: -10px;
   background: rgba(255, 255, 255, 0.8);
   width: 100%;
   text-decoration: none;
@@ -217,7 +216,7 @@ background: rgb(94, 109, 189)
   line-height: 23px;
   text-align: left;
 }
-.main-top-left h1:hover{
+.main-top-left h1:hover {
   background: rgb(255, 254, 254);
 }
 
@@ -241,7 +240,7 @@ background: rgb(94, 109, 189)
   display: inline;
   position: absolute;
   left: 0;
-  bottom:-13px;
+  bottom: -13px;
   background: rgba(255, 255, 255, 0.8);
   width: 91%;
   text-decoration: none;
@@ -252,7 +251,7 @@ background: rgb(94, 109, 189)
   line-height: 23px;
   text-align: left;
 }
-.main-top-right-up h1:hover{
+.main-top-right-up h1:hover {
   background: rgb(255, 254, 254);
 }
 .nasa-event {
@@ -270,8 +269,8 @@ background: rgb(94, 109, 189)
   position: absolute;
   margin-left: 4px;
 }
-.nasa-event a:hover{
-text-decoration: underline;
+.nasa-event a:hover {
+  text-decoration: underline;
 }
 .nasa-event * {
   color: white;
@@ -307,11 +306,11 @@ text-decoration: underline;
   width: 376px;
   position: relative;
 }
-.main-top-right-down h1{
+.main-top-right-down h1 {
   display: inline;
   position: absolute;
   left: 0;
-  bottom:-13px;
+  bottom: -13px;
   background: rgba(255, 255, 255, 0.8);
   width: 97%;
   text-decoration: none;
@@ -322,13 +321,13 @@ text-decoration: underline;
   line-height: 23px;
   text-align: left;
 }
-.main-top-right-down h1:hover{
+.main-top-right-down h1:hover {
   background: rgb(255, 254, 254);
 }
 /* end Css main-top codes*/
 
 /* start Css main-middel codes*/
-.main-middel{
+.main-middel {
   width: 1399px;
 }
 .main-middel-first {
@@ -342,24 +341,23 @@ text-decoration: underline;
   position: relative;
   display: inline-block;
 }
-.main-middel-first h2{
+.main-middel-first h2 {
   background: rgba(87, 108, 214, 0.6);
-    position: absolute;
-    left: 0;
-    bottom: 40px;
-    color: white;
-    font-size: 18px;
-    padding: 6px 12px;
-    
+  position: absolute;
+  left: 0;
+  bottom: 40px;
+  color: white;
+  font-size: 18px;
+  padding: 6px 12px;
 }
-.main-middel-first h2:hover{
-  background: rgb(94, 109, 189)
+.main-middel-first h2:hover {
+  background: rgb(94, 109, 189);
 }
 .main-middel-first h1 {
   display: inline;
   position: absolute;
   left: 0;
-  bottom:-13px;
+  bottom: -13px;
   background: rgba(255, 255, 255, 0.8);
   width: 94%;
   text-decoration: none;
@@ -370,8 +368,8 @@ text-decoration: underline;
   line-height: 23px;
   text-align: left;
 }
-.main-middel-first h1:hover{
-background: rgb(255, 254, 254);
+.main-middel-first h1:hover {
+  background: rgb(255, 254, 254);
 }
 .main-middel-second {
   background-image: url(image/waterextremes.00899_print.jpg);
@@ -385,11 +383,11 @@ background: rgb(255, 254, 254);
   display: inline-block;
   height: 69px;
 }
-.main-middel-second h1{
+.main-middel-second h1 {
   display: inline;
   position: absolute;
   left: 0;
-  bottom:-13px;
+  bottom: -13px;
   background: rgba(255, 255, 255, 0.8);
   width: 97%;
   text-decoration: none;
@@ -400,7 +398,7 @@ background: rgb(255, 254, 254);
   line-height: 23px;
   text-align: left;
 }
-.main-middel-second h1:hover{
+.main-middel-second h1:hover {
   background: rgb(255, 254, 254);
 }
 .main-middel-third {
@@ -418,7 +416,7 @@ background: rgb(255, 254, 254);
   display: inline;
   position: absolute;
   left: 0;
-  bottom:-13px;
+  bottom: -13px;
   background: rgba(255, 255, 255, 0.8);
   width: 94%;
   text-decoration: none;
@@ -429,14 +427,15 @@ background: rgb(255, 254, 254);
   line-height: 23px;
   text-align: left;
 }
-.main-middel-third h1:hover{
+.main-middel-third h1:hover {
   background: rgb(255, 254, 254);
 }
 /* end  Css main-middel codes*/
 
 /* start Css main-bottom codes*/
-.main-bottom{
- width: 1418px;}
+.main-bottom {
+  width: 1418px;
+}
 
 .main-bottom-first {
   background-image: url(image/_bc22186_.jpg);
@@ -464,7 +463,7 @@ background: rgb(255, 254, 254);
   line-height: 23px;
   text-align: left;
 }
-.main-bottom-first h1:hover{
+.main-bottom-first h1:hover {
   background: rgb(255, 254, 254);
 }
 .main-bottom-second {
@@ -482,7 +481,7 @@ background: rgb(255, 254, 254);
   display: inline;
   position: absolute;
   left: 0;
-  bottom:-13px;
+  bottom: -13px;
   background: rgba(255, 255, 255, 0.8);
   width: 94%;
   text-decoration: none;
@@ -493,7 +492,7 @@ background: rgb(255, 254, 254);
   line-height: 23px;
   text-align: left;
 }
-.main-bottom-second h1:hover{
+.main-bottom-second h1:hover {
   background: rgb(255, 254, 254);
 }
 .main-bottom-third {
@@ -522,7 +521,7 @@ background: rgb(255, 254, 254);
   line-height: 23px;
   text-align: left;
 }
-.main-bottom-third h1:hover{
+.main-bottom-third h1:hover {
   background: rgb(255, 254, 254);
 }
 .main-bottom-Fourth {
@@ -551,19 +550,18 @@ background: rgb(255, 254, 254);
   line-height: 23px;
   text-align: left;
 }
-.main-bottom-Fourth h1:hover{
+.main-bottom-Fourth h1:hover {
   background: rgb(255, 254, 254);
 }
 .MORE-STORIES {
   background: #15418c;
   text-align: center;
   cursor: pointer;
-  
+
   margin-top: 15px;
-  width: 1351px
-  
+  width: 1351px;
 }
-.MORE-STORIES:hover{
+.MORE-STORIES:hover {
   background: #5d7fb9;
 }
 .MORE-STORIES button {
@@ -577,7 +575,7 @@ background: rgb(255, 254, 254);
   width: 100%;
   height: 45px;
 }
-.MORE-STORIES button:hover{
+.MORE-STORIES button:hover {
   background: #5d7fb9;
 }
 /* end Css main-bottom codes*/
@@ -593,13 +591,12 @@ background: rgb(255, 254, 254);
   /* bottom: 0; */
   display: inline;
 }
-.footer-info{
-    display: inline-block
+.footer-info {
+  display: inline-block;
 }
 .footer-info img {
   width: 86px;
   display: inline-block;
-  
 }
 #footer-links li {
   font-weight: bolder;
@@ -616,7 +613,7 @@ background: rgb(255, 254, 254);
   font-size: 16.5px;
 }
 .footer a {
-  color:#5d7fb9 ;
+  color: #5d7fb9;
   text-decoration: none;
   font-weight: bold;
   font-size: 13.5px;
@@ -624,7 +621,7 @@ background: rgb(255, 254, 254);
 
 .National {
   display: inline-block;
-  vertical-align:top;
+  vertical-align: top;
 }
 
 .bottom-logo {
@@ -636,14 +633,15 @@ background: rgb(255, 254, 254);
   margin: 0px;
   padding: 0px;
 }
-#footer-links a{
+#footer-links a {
   text-decoration: none;
   margin-right: 10px;
 }
 
-#footer-links a:hover{
-  text-decoration: underline;}
-  /* Css properties code footer[END] */
+#footer-links a:hover {
+  text-decoration: underline;
+}
+/* Css properties code footer[END] */
 
 /* Css properties code container[START] */
 .container {
@@ -652,4 +650,3 @@ background: rgb(255, 254, 254);
   width: 1200px;
 }
 /* Css properties code container[END] */
-
