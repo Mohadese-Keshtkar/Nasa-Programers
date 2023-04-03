@@ -89,7 +89,6 @@
         font-size: 17px;
       }
       
-      
       .links-menu ul li ul > li {
         list-style-type: none;
         display: block;
@@ -287,6 +286,7 @@
       }
       .main-right button:hover{
         background: #5d7fb9;
+        /* Css properties code footer[START] */
       }
       .allfooter {
         width: 847px;
@@ -331,7 +331,6 @@
       }
       #footer-links {
         width: 989px;
-        text-align: right;
       }
       #footer-links a:hover{
         text-decoration: underline;
@@ -339,4 +338,4 @@
       .Contact-NASA{
         margin-top: -25px;
       }
-      
+      /* Css properties code footer[END] */
