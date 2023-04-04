@@ -1,6 +1,23 @@
+@font-face {
+  font-family: nasafont;
+  src: url(./Titillium_Web/TitilliumWeb-Regular.ttf);
+}
+body {
+  font-family: nasafont;
+  background-color: black;
+  color: aliceblue;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
+    sans-serif;
+}
+#container {
+  margin: 0 auto;
+  width: 1350px;
+  
+}
 /* Css properties code header[START] */
+
 .header {
-  width: 1376px;
+    width: 1343px;
     position: fixed;
     z-index: 2;
     background-image: url(image/preview.jpg);
@@ -31,6 +48,12 @@
 /*  Css properties codes header links-menu top[START] */
 .links-menu {
   position: relative;
+  
+}
+.links-menu a{
+  display: inline-block;
+  width: 100%;
+  /* padding: 11px 0; */
 }
 
 .links-menu > ul > li {
@@ -51,7 +74,7 @@
 .links-menu ul li ul {
   display: none;
   position: absolute;
-  background-color: blue;
+  background-color: #15418c;
   padding: 0px;
   width: 290px;
 }
@@ -61,10 +84,8 @@
 }
 
 .links-menu ul li:hover a {
-  background-color: blue;
+  background-color: #15418c;
 }
-
-
 .links-menu ul li ul > li {
   list-style-type: none;
   display: block;
@@ -73,7 +94,8 @@
 }
 
 .links-menu ul li ul  li:hover a{
-  background-color: #0088f8;
+  background-color: #113575;
+  /* padding: 4px 0 ; */
 } 
 
 /* Css properties links-menu ul :Missions [END]*/
@@ -87,13 +109,11 @@
   top: 0px;
   background-color:#333333;
 }
-
 .search-box svg {
   width: 19px;
   vertical-align: middle;
   fill: white;
 }
-
 .search-box input {
   width: 100px;
   padding: 8px;
@@ -102,7 +122,6 @@
   background-color:#333333;
   cursor: text;
 }
-
 .search-box img{
   width: 19px;
   position: absolute;
@@ -147,36 +166,21 @@
 }
 /*  Css properties codes header links-down[End] */
 
-@font-face {
-  font-family: nasafont;
-  src: url(./Titillium_Web/TitilliumWeb-Regular.ttf);
-}
-body {
-  font-family: nasafont;
-  background-color: black;
-  color: aliceblue;
-  font-family: "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
-    sans-serif;
-}
 
-#container {
-  margin: 0 auto;
-  width: 1350px;
-  /* border: 1px solid white; */
-}
+/* start Css main codes*/
 
 .main {
-  /* text-align: center; */
+  
   margin: 0 auto;
   margin-top: 103px;
 }
+/* start Css main-top codes*/
 .main-top {
   display: inline-flex;
 }
 .main-top-left {
   background: url(image/state-of-nasa-2023.png);
   background-size: 100%;
-  /* background-color: #cccccc; */
   background-repeat: no-repeat;
   background-position: center;
   padding: 263px;
@@ -250,9 +254,7 @@ background: rgb(94, 109, 189)
 }
 .main-top-right-up h1:hover{
   background: rgb(255, 254, 254);
-  
 }
-
 .nasa-event {
   background-color: #39719e;
   display: inline-block;
@@ -267,6 +269,9 @@ background: rgb(94, 109, 189)
   text-align: left;
   position: absolute;
   margin-left: 4px;
+}
+.nasa-event a:hover{
+text-decoration: underline;
 }
 .nasa-event * {
   color: white;
@@ -320,6 +325,9 @@ background: rgb(94, 109, 189)
 .main-top-right-down h1:hover{
   background: rgb(255, 254, 254);
 }
+/* end Css main-top codes*/
+
+/* start Css main-middel codes*/
 .main-middel{
   width: 1399px;
 }
@@ -424,6 +432,9 @@ background: rgb(255, 254, 254);
 .main-middel-third h1:hover{
   background: rgb(255, 254, 254);
 }
+/* end  Css main-middel codes*/
+
+/* start Css main-bottom codes*/
 .main-bottom{
  width: 1418px;}
 
@@ -549,7 +560,7 @@ background: rgb(255, 254, 254);
   cursor: pointer;
   
   margin-top: 15px;
-  width: 1386px;
+  width: 1351px
   
 }
 .MORE-STORIES:hover{
@@ -569,7 +580,8 @@ background: rgb(255, 254, 254);
 .MORE-STORIES button:hover{
   background: #5d7fb9;
 }
-
+/* end Css main-bottom codes*/
+/* end Css main codes*/
 /* Css properties code footer[SRART] */
 .allfooter {
   width: 92.5vw;

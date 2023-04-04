@@ -39,6 +39,8 @@
         z-index: 2;
         /* background-image: url(image/preview.jpg); */
         margin-top: -8px;
+        position: absolute;
+        right: 0;
       }
       /* Css properties codes header menu[END] */
 
@@ -56,15 +58,28 @@
         position: relative;
       }
       
+      .links-menu a{
+      display: inline-block;
+      width: 100%;
+      /* padding: 11px 0; */
+      }
+      .links-menu >ul{
+        position: relative;
+        right: 153px;
+        
+      }
+
       .links-menu > ul > li {
         list-style-type: none;
         display: inline-block;
-        padding: 0px;
+        padding: 0px 28px;
         font-size: 20px;
         border-right: 2px solid gray;
         position: relative;
       }
-      
+      .links-menu > ul > li:hover{
+        background-color: #15418c
+      }
       .links-menu ul > li > a {
         color: rgb(255, 255, 255);
         text-decoration: none;
@@ -75,9 +90,10 @@
       .links-menu ul li ul {
         display: none;
         position: absolute;
-        background-color: blue;
+        background-color: #15418c;
         padding: 0px;
         width: 290px;
+        left: 0;
       }
       
       .links-menu ul li:hover ul {
@@ -85,20 +101,26 @@
       }
       
       .links-menu ul li:hover a {
-        background-color: blue;
+        background-color: #15418c;
         font-size: 17px;
       }
+      
       
       .links-menu ul li ul > li {
         list-style-type: none;
         display: block;
         text-align: left;
         margin-top: 12px;
+        
+
       }
-      
+      .links-menu ul li ul > li:hover{
+        background-color: #113575;
+      }
       .links-menu ul li ul  li:hover a{
-        background-color: #0088f8;
+        background-color: #113575;
       } 
+      
       
       /* Css properties links-menu ul :Missions [END]*/
       
@@ -107,7 +129,7 @@
         border: 2px solid #333333;
         display: inline;
         position: absolute;
-        right: -86px;
+        right:0;
         top: 0px;
         background-color:#333333;
       }
@@ -138,7 +160,8 @@
       /*  Css properties codes header links-menu top[End] */
 
       /*  Css properties codes header links-down[START] */
-
+      
+      /* start Css main-left codes*/
       .main-left {
         background-color: rgb(255, 255, 255);
         border-right: 16px solid black;
@@ -149,10 +172,24 @@
         overflow: scroll;
         top: 75px;
       }
+      .main-left-button{
+        width: 100%;
+      }
+      .main-left-button div{
+        width: 49%;
+          }
+          .main-left-button button{
+            width: 100%;}
       .main-left ul {
         padding: 0;
         margin: 0;
         list-style-type: none;
+      }
+      .main-left-button{
+        
+      }
+      .main-left ul div{
+        display: inline-block;
       }
       .main-left a:hover{
         text-decoration: underline
@@ -163,7 +200,17 @@
         height: 44px;
       }
       .right-button {
-        margin-left: -8px;
+        /* margin-left: -8px; */
+      }
+      .right-button:hover{
+        color: white;
+        text-decoration: underline;
+        background-color: #333333;
+      }
+      .left-button:hover{
+        color: white;
+        text-decoration: underline;
+        background-color: #333333;
       }
       ul li {
         padding: 20px 9px;
@@ -177,7 +224,9 @@
         display: table-cell;
         font-size: 15px;
       }
+      /* end Css main-left codes*/
 
+      /* start Css main-right codes*/
       .main-right {
         display: inline-block;
         position: relative;
@@ -189,7 +238,6 @@
         background-image: url(image/osiris-rex-capsule-parachuting-animation.jpg);
         padding: 170px 497px;
         display: inline-block;
-        /* background-position: center; */
         background-repeat: no-repeat;
         background-size: 100%;
         width: 170px;
@@ -202,7 +250,7 @@
         position: absolute;
         top: 0px;
         left: 0;
-        width: 1109px;
+        width: 1163px;
       }
       #OSIRIS-REx h1 {
         position: absolute;
@@ -228,6 +276,7 @@
       .heading h1 {
         display: inline-block;
       }
+      /* start Css icon codes*/
       .icon {
         position: absolute;
         top: 47px;
@@ -237,8 +286,7 @@
         display: inline-block;
         font-size: 42px;
         border: 0;
-        /* color: aqua; */
-        /* width: 22px; */
+       
       }
       .fa-sharp {
         font-size: 42px;
@@ -258,6 +306,7 @@
       .fa-square-plus {
         color: rgb(255, 101, 80);
       }
+      /* end of Css icon codes*/
       .text img {
         width: 1113px
       }
@@ -271,7 +320,6 @@
       .main-right button {
         background:#0f3d8d;
         border: none;
-        /* background-color: #5d7fb9; */
         width: 1163px;
         padding: 10px;
         font-weight: 600;
@@ -286,8 +334,10 @@
       }
       .main-right button:hover{
         background: #5d7fb9;
-        /* Css properties code footer[START] */
       }
+      /* end of Css main-right codes*/
+
+      /* start Css footer codes*/
       .allfooter {
         width: 847px;
         margin: 0 auto;
@@ -331,11 +381,15 @@
       }
       #footer-links {
         width: 989px;
+        text-align: right;
       }
       #footer-links a:hover{
         text-decoration: underline;
       }
       .Contact-NASA{
         margin-top: -25px;
+        position: relative;
+        right: 705px;
       }
-      /* Css properties code footer[END] */
+      /* end of Css footer codes*/
+      
