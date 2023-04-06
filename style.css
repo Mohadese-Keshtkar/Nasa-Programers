@@ -18,7 +18,7 @@ body {
 /* Css properties code header[START] */
 
 .header {
-  width: 1343px;
+  width: 1350px;
   position: fixed;
   z-index: 2;
   background-image: url(image/preview.jpg);
@@ -63,6 +63,10 @@ body {
   font-size: 20px;
   border-right: 2px solid gray;
   position: relative;
+}
+
+.links-menu > ul > li:last-of-type {
+border-right: none;
 }
 
 .links-menu ul > li > a {
@@ -144,6 +148,10 @@ body {
   display: inline-block;
   padding: 5px 5px 5px 5px;
   background-color: rgb(75, 75, 75);
+}
+
+.links-down ul > li:last-of-type {
+  border-right: none;
 }
 
 .links-down ul > li {
