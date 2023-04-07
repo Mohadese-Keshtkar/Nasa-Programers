@@ -127,12 +127,25 @@ border-right: none;
   border: none;
   background-color: #333333;
   cursor: text;
+  color: aliceblue;
 }
 .search-box img {
   width: 19px;
   position: absolute;
   right: -35px;
   top: 5px;
+}
+
+.menu .menu-ForeStudents{
+  border-bottom: 1px solid white; 
+  margin: 0;
+  margin-top: 13px;
+}
+
+.menu .menu-Quesst{
+  border-bottom: 1px solid white;
+  margin: 0;
+  margin-top: 13px;
 }
 
 /* css properties menu search-box top[END] */
