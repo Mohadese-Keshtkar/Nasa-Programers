@@ -11,14 +11,16 @@ body {
     sans-serif;
 }
 
+/* Css properties code container[START] */
 #container {
   margin: 0 auto;
   width: 1350px;
 }
-/* Css properties code header[START] */
+/* Css properties code container[END] */
 
+/* Css properties code header[START] */
 .header {
-  width: 1350px;
+  width: 1343px;
   position: fixed;
   z-index: 2;
   background-image: url(image/preview.jpg);
@@ -35,8 +37,7 @@ body {
   width: 1150px;
   position: fixed;
   z-index: 2;
-  /* background-image: url(image/preview.jpg); */
-  margin-top: -8px;
+  margin-top: 0px;
 }
 /* Css properties codes header menu[END] */
 
@@ -53,7 +54,10 @@ body {
 .links-menu a {
   display: inline-block;
   width: 100%;
-  /* padding: 11px 0; */
+}
+
+.links-menu ul {
+  padding: 0px;
 }
 
 .links-menu > ul > li {
@@ -65,32 +69,33 @@ body {
   position: relative;
 }
 
-.links-menu > ul > li:last-of-type {
-border-right: none;
-}
-
 .links-menu ul > li > a {
   color: white;
   text-decoration: none;
   margin-right: 5px;
 }
 
-/* Css properties links-menu ul :Missions [START]*/
+/* Css properties links-menu ul :Missions V koli... [START]*/
+.links-menu ul li:last-of-type {
+  border-right: none;
+}
+
 .links-menu ul li ul {
   display: none;
   position: absolute;
   background-color: #15418c;
   padding: 0px;
-  width: 292px;
+  width: 290px;
 }
 
 .links-menu ul li:hover ul {
   display: block;
 }
 
-.links-menu ul li:hover a {
+.links-menu ul li:hover a { 
   background-color: #15418c;
 }
+
 .links-menu ul li ul > li {
   list-style-type: none;
   display: block;
@@ -101,10 +106,22 @@ border-right: none;
 
 .links-menu ul li ul li:hover a {
   background-color: #113575;
-  /* padding: 4px 0 ; */
 }
 
+.menu .border-Quesst{
+  border-bottom: 1px solid white;
+  margin: 0;
+  margin-top: 13px;
+}
 /* Css properties links-menu ul :Missions [END]*/
+
+/* Css properties links-menu ul :NASA Audiences [START] */
+.menu .border-Fore{
+  border-bottom: 1px solid white; 
+  margin: 0;
+  margin-top: 13px;
+}
+/* Css properties links-menu ul :NASA Audiences [END] */
 
 /* css properties menu search-box top[START] */
 .search-box {
@@ -127,7 +144,6 @@ border-right: none;
   border: none;
   background-color: #333333;
   cursor: text;
-  color: aliceblue;
 }
 .search-box img {
   width: 19px;
@@ -135,19 +151,6 @@ border-right: none;
   right: -35px;
   top: 5px;
 }
-
-.menu .border-menu-ForeStudents{
-  border-bottom: 1px solid white; 
-  margin: 0;
-  margin-top: 13px;
-}
-
-.menu .border-menu-Quesst{
-  border-bottom: 1px solid white;
-  margin: 0;
-  margin-top: 13px;
-}
-
 /* css properties menu search-box top[END] */
 
 /*  Css properties codes header links-menu top[End] */
@@ -163,17 +166,16 @@ border-right: none;
   background-color: rgb(75, 75, 75);
 }
 
-.links-down ul > li:last-of-type {
-  border-right: none;
-}
-
 .links-down ul > li {
   list-style-type: none;
   padding: 0px;
   display: inline-block;
-  /* border: 2px solid gray; */
   font-size: 15px;
   border-right: 1px solid gray;
+}
+
+.links-down ul li:last-of-type {
+  border-right: none;
 }
 
 .links-down ul > li > a {
@@ -189,7 +191,6 @@ border-right: none;
 /*  Css properties codes header links-down[End] */
 
 /* start Css main codes*/
-
 .main {
   margin: 0 auto;
   margin-top: 103px;
@@ -198,6 +199,7 @@ border-right: none;
 .main-top {
   display: inline-flex;
 }
+
 .main-top-left {
   background: url(image/state-of-nasa-2023.png);
   background-size: 100%;
@@ -210,6 +212,7 @@ border-right: none;
   display: inline-block;
   height: 110px;
 }
+
 .main-top-left h2 {
   background: rgba(87, 108, 214, 0.6);
   position: absolute;
@@ -219,9 +222,11 @@ border-right: none;
   font-size: 18px;
   padding: 6px 12px;
 }
+
 .main-top-left h2:hover {
   background: rgb(94, 109, 189);
 }
+
 .main-top-left h1 {
   display: inline;
   position: absolute;
@@ -237,6 +242,7 @@ border-right: none;
   line-height: 23px;
   text-align: left;
 }
+
 .main-top-left h1:hover {
   background: rgb(255, 254, 254);
 }
@@ -245,10 +251,10 @@ border-right: none;
   display: inline-block;
   padding-left: 9px;
 }
+
 .main-top-right-up {
   background: url(image/artemis_ii_graphics.jpg);
   background-size: 100%;
-  /* background-color: #cccccc; */
   background-repeat: no-repeat;
   background-position: center;
   padding: 164px;
@@ -272,9 +278,11 @@ border-right: none;
   line-height: 23px;
   text-align: left;
 }
+
 .main-top-right-up h1:hover {
   background: rgb(255, 254, 254);
 }
+
 .nasa-event {
   background-color: #39719e;
   display: inline-block;
@@ -290,43 +298,49 @@ border-right: none;
   position: absolute;
   margin-left: 4px;
 }
+
 .nasa-event a:hover {
   text-decoration: underline;
 }
+
 .nasa-event * {
   color: white;
   text-decoration: none;
   font-size: 14px;
-
   position: relative;
 }
+
 .nasa-event-line-first {
   border: 1px solid white;
   padding: 44px;
   padding: 0px 116px;
 }
+
 .event-bottom {
   position: relative;
   top: 78px;
 }
+
 .event-bottom a {
   padding: 7px;
 }
+
 .nasa-event-line-second {
   border: 1px solid white;
   position: relative;
   top: 75px;
 }
+
 .main-top-right-down {
   background: url(image/1-pia00106-maat-mons-1041.jpg);
   background-size: cover;
-  /* background-color: #cccccc; */
   background-repeat: no-repeat;
   background-position: center;
   padding: 147px 159px;
   width: 376px;
   position: relative;
 }
+
 .main-top-right-down h1 {
   display: inline;
   position: absolute;
@@ -342,6 +356,7 @@ border-right: none;
   line-height: 23px;
   text-align: left;
 }
+
 .main-top-right-down h1:hover {
   background: rgb(255, 254, 254);
 }
@@ -351,6 +366,7 @@ border-right: none;
 .main-middel {
   width: 1399px;
 }
+
 .main-middel-first {
   background-image: url(image/axiom_axemu_full.jpg);
   background-size: 100%;
@@ -362,6 +378,7 @@ border-right: none;
   position: relative;
   display: inline-block;
 }
+
 .main-middel-first h2 {
   background: rgba(87, 108, 214, 0.6);
   position: absolute;
@@ -371,9 +388,11 @@ border-right: none;
   font-size: 18px;
   padding: 6px 12px;
 }
+
 .main-middel-first h2:hover {
   background: rgb(94, 109, 189);
 }
+
 .main-middel-first h1 {
   display: inline;
   position: absolute;
@@ -389,13 +408,14 @@ border-right: none;
   line-height: 23px;
   text-align: left;
 }
+
 .main-middel-first h1:hover {
   background: rgb(255, 254, 254);
 }
+
 .main-middel-second {
   background-image: url(image/waterextremes.00899_print.jpg);
   background-size: 100%;
-  /* background-color: #cccccc; */
   background-repeat: no-repeat;
   background-position: center;
   padding: 130px 110px;
@@ -404,6 +424,7 @@ border-right: none;
   display: inline-block;
   height: 69px;
 }
+
 .main-middel-second h1 {
   display: inline;
   position: absolute;
@@ -419,13 +440,14 @@ border-right: none;
   line-height: 23px;
   text-align: left;
 }
+
 .main-middel-second h1:hover {
   background: rgb(255, 254, 254);
 }
+
 .main-middel-third {
   background-image: url(image/axiom_space.jpg);
   background-size: 100%;
-  /* background-color: #cccccc; */
   background-repeat: no-repeat;
   background-position: center;
   padding: 164px;
@@ -433,6 +455,7 @@ border-right: none;
   position: relative;
   display: inline-block;
 }
+
 .main-middel-third h1 {
   display: inline;
   position: absolute;
@@ -448,6 +471,7 @@ border-right: none;
   line-height: 23px;
   text-align: left;
 }
+
 .main-middel-third h1:hover {
   background: rgb(255, 254, 254);
 }
@@ -469,6 +493,7 @@ border-right: none;
   position: relative;
   display: inline-block;
 }
+
 .main-bottom-first h1 {
   display: inline;
   position: absolute;
@@ -484,9 +509,11 @@ border-right: none;
   line-height: 23px;
   text-align: left;
 }
+
 .main-bottom-first h1:hover {
   background: rgb(255, 254, 254);
 }
+
 .main-bottom-second {
   background-image: url(image/52747713048_4c9c64debb_o.jpg);
   background-size: 100%;
@@ -498,6 +525,7 @@ border-right: none;
   position: relative;
   display: inline-block;
 }
+
 .main-bottom-second h1 {
   display: inline;
   position: absolute;
@@ -513,9 +541,11 @@ border-right: none;
   line-height: 23px;
   text-align: left;
 }
+
 .main-bottom-second h1:hover {
   background: rgb(255, 254, 254);
 }
+
 .main-bottom-third {
   background-image: url(image/52750115253_aeeedffb20_o.jpeg);
   background-size: 100%;
@@ -527,6 +557,7 @@ border-right: none;
   position: relative;
   display: inline-block;
 }
+
 .main-bottom-third h1 {
   display: inline;
   position: absolute;
@@ -542,9 +573,11 @@ border-right: none;
   line-height: 23px;
   text-align: left;
 }
+
 .main-bottom-third h1:hover {
   background: rgb(255, 254, 254);
 }
+
 .main-bottom-Fourth {
   background-image: url(image/viper_chassis_3_quick_edit.png);
   background-size: 100%;
@@ -556,6 +589,7 @@ border-right: none;
   position: relative;
   display: inline-block;
 }
+
 .main-bottom-Fourth h1 {
   display: inline;
   position: absolute;
@@ -571,14 +605,15 @@ border-right: none;
   line-height: 23px;
   text-align: left;
 }
+
 .main-bottom-Fourth h1:hover {
   background: rgb(255, 254, 254);
 }
+
 .MORE-STORIES {
   background: #15418c;
   text-align: center;
   cursor: pointer;
-
   margin-top: 15px;
   width: 1351px;
 }
@@ -601,17 +636,8 @@ border-right: none;
 }
 /* end Css main-bottom codes*/
 /* end Css main codes*/
+
 /* Css properties code footer[SRART] */
-.allfooter {
-  width: 92.5vw;
-  margin: 0 auto;
-  box-sizing: border-box;
-  /* position: absolute; */
-  /* left: 0; */
-  /* right: 0; */
-  /* bottom: 0; */
-  display: inline;
-}
 .footer-info {
   display: inline-block;
 }
@@ -654,6 +680,7 @@ border-right: none;
   margin: 0px;
   padding: 0px;
 }
+
 #footer-links a {
   text-decoration: none;
   margin-right: 10px;
@@ -664,10 +691,4 @@ border-right: none;
 }
 /* Css properties code footer[END] */
 
-/* Css properties code container[START] */
-.container {
-  margin: 0 auto;
-  background-color: rgb(34, 34, 34, 0.7);
-  width: 1200px;
-}
-/* Css properties code container[END] */
+
