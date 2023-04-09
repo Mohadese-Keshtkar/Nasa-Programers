@@ -75,7 +75,7 @@ body {
   margin-right: 5px;
 }
 
-/* Css properties links-menu ul :Missions V koli... [START]*/
+/* Css properties links-menu ul :Missions V kol menu hai bad... [START]*/
 .links-menu ul li:last-of-type {
   border-right: none;
 }
@@ -92,7 +92,7 @@ body {
   display: block;
 }
 
-.links-menu ul li:hover a { 
+.links-menu ul li:hover a {
   background-color: #15418c;
 }
 
@@ -108,7 +108,7 @@ body {
   background-color: #113575;
 }
 
-.menu .border-Quesst{
+.menu .border-Quesst {
   border-bottom: 1px solid white;
   margin: 0;
   margin-top: 13px;
@@ -116,8 +116,8 @@ body {
 /* Css properties links-menu ul :Missions [END]*/
 
 /* Css properties links-menu ul :NASA Audiences [START] */
-.menu .border-Fore{
-  border-bottom: 1px solid white; 
+.menu .border-Fore {
+  border-bottom: 1px solid white;
   margin: 0;
   margin-top: 13px;
 }
@@ -132,6 +132,11 @@ body {
   top: 0px;
   background-color: #333333;
 }
+
+.search-box:hover{
+  border:1px solid white;
+}
+
 .search-box svg {
   width: 19px;
   vertical-align: middle;
@@ -145,6 +150,7 @@ body {
   background-color: #333333;
   cursor: text;
 }
+
 .search-box img {
   width: 19px;
   position: absolute;
@@ -690,5 +696,3 @@ body {
   text-decoration: underline;
 }
 /* Css properties code footer[END] */
-
-
